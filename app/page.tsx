@@ -1,3 +1,4 @@
+import NewsletterCta from "@/components/NewsletterCta";
 import Image from "next/image";
 
 export default function Home() {
@@ -49,6 +50,8 @@ export default function Home() {
             GTM Web docs
           </a>
         </div>
+
+        <NewsletterCta />
       </main>
     </div>
   );
